@@ -6,3 +6,9 @@
 .merienda-photo{width:min(100%,520px)}
 .merienda-photo img{width:100%;height:auto;object-fit:contain}
 @media(max-width:800px){.menu-photo,.merienda-photo{width:100%}.menu-photo img,.merienda-photo img{height:auto;min-height:0}}
+
+/* Cartas: botones flat protagonistas, legibles y fáciles de accionar. */
+.menu-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:28px}
+.menu-button{min-height:58px;display:flex;align-items:center;gap:12px;padding:15px 16px;background:var(--wine);border:1px solid var(--wine);border-radius:4px;color:#fff;text-decoration:none;font-size:.82rem;font-weight:700;letter-spacing:.04em;transition:background .2s,transform .2s,box-shadow .2s}
+.menu-button span{flex:1}.menu-button>i:first-child{color:#f2c77c;font-size:1.05rem}.menu-button>i:last-child{font-size:.75rem;opacity:.75}.menu-button:hover,.menu-button:focus-visible{background:var(--wine-dark);transform:translateY(-2px);box-shadow:0 8px 18px rgba(77,32,36,.18)}.menu-button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+@media(max-width:800px){.menu-actions{grid-template-columns:1fr}.menu-button{min-height:54px}}
