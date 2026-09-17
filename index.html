@@ -96,13 +96,25 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="#inicio" aria-label="Viraró Bodegón, inicio"><img src="img/logo-viraro-bodegon.png" alt="Viraró Bodegón Parrilla"></a>
-      <nav aria-label="Navegación principal">
-        <a href="#propuesta">La propuesta</a>
-        <a href="#menu">Carta</a>
-        <a href="#merienda">Merienda libre</a>
-        <a href="#contacto">Contacto</a>
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Abrir menú de navegación">
+      <label class="nav-button" for="nav-toggle" aria-label="Abrir o cerrar menú"><span></span><span></span><span></span></label>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#propuesta">PROPUESTA</a>
+        <a href="#menu">RESTAURANTE</a>
+        <a href="#merienda">MERIENDA LIBRE</a>
+        <div class="menu-group">
+          <button class="menu-label" type="button" aria-haspopup="true">CARTAS <b aria-hidden="true">⌄</b></button>
+          <div class="menu-dropdown" aria-label="Cartas oficiales">
+            <a href="https://virarobodegon.com.ar/pdf/carta-menu-bodegon-buenos-aires.pdf" target="_blank" rel="noopener">CARTA MENÚ <span>PDF</span></a>
+            <a href="https://virarobodegon.com.ar/pdf/carta-vinos-bodegon-buenos-aires.pdf" target="_blank" rel="noopener">CARTA DE VINOS <span>PDF</span></a>
+            <a href="https://virarobodegon.com.ar/pdf/carta-menu-cafeteria.pdf" target="_blank" rel="noopener">MENÚ CAFETERÍA <span>PDF</span></a>
+            <a href="https://virarobodegon.com.ar/pdf/carta-tragos-bodegon.pdf" target="_blank" rel="noopener">CARTA DE TRAGOS <span>PDF</span></a>
+            <a href="https://virarobodegon.com.ar/pdf/carta-menu-bodegon-eventos.pdf" target="_blank" rel="noopener">CARTA DE EVENTOS <span>PDF</span></a>
+          </div>
+        </div>
+        <a href="#faq">GOOGLE REVIEWS</a>
+        <a class="nav-cta" href="https://wa.me/5491138833144" target="_blank" rel="noopener">RESERVAS</a>
       </nav>
-      <a class="button button-small" href="https://wa.me/5491138833144" target="_blank" rel="noopener">Reservar mesa</a>
     </div>
   </header>
 
