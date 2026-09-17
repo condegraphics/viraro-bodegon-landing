@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://condegraphics.github.io/viraro-bodegon-landing/sitemap.xml
