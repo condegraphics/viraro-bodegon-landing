@@ -96,3 +96,10 @@
   .review-card footer{margin-top:26px;padding-top:0}
   .reviews-action{justify-content:flex-start;margin-top:38px}
 }
+
+
+/* Footer bottom: atribución editorial separada, como en la referencia aprobada. */
+.footer-bottom{margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);text-align:center;font-size:.72rem;letter-spacing:.04em}
+.footer-bottom a{color:#bdb1a8;text-decoration:none;transition:color .2s ease}
+.footer-bottom a:hover,.footer-bottom a:focus-visible{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){.footer-bottom{margin-top:22px;padding-top:14px;font-size:.68rem;line-height:1.5}}
