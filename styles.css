@@ -30,3 +30,7 @@
 /* Corrección de composición del header: evita desborde y mantiene el dropdown fuera del flujo. */
 @media(min-width:801px){.nav-toggle{display:none}.nav-wrap{gap:20px}.brand{flex:0 0 116px}.main-nav{flex:1;justify-content:flex-end;gap:clamp(12px,1.5vw,22px);font-size:clamp(.62rem,.68vw,.72rem)}.menu-dropdown{position:absolute;top:90px;right:-8px;white-space:nowrap}.menu-dropdown a{white-space:nowrap}}
 @media(max-width:800px){.nav-toggle{display:none}.brand{margin-right:auto}.main-nav{z-index:10}}
+
+/* Hero: jerarquía más respirada y H1 controlado en escritorio. */
+@media(min-width:801px){.hero h1{max-width:920px;font-size:clamp(3.2rem,5.2vw,5.4rem);line-height:.98}.hero-lead{max-width:620px;margin-top:30px;margin-bottom:34px}.hero-actions{gap:14px}}
+@media(max-width:800px){.hero-lead{margin-top:24px;margin-bottom:30px}.hero-actions{gap:12px}}
