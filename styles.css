@@ -111,3 +111,44 @@
 .footer-bottom a{color:rgba(189,177,168,.58);text-decoration:none;transition:color .2s ease}
 .footer-bottom a:hover,.footer-bottom a:focus-visible{color:rgba(189,177,168,.78);text-decoration:none}
 @media(max-width:800px){.site-footer{padding:18px 0 20px}.footer-bottom{font-size:.57rem;letter-spacing:.09em}}
+
+
+/* Ritmo editorial unificado: titulares y párrafos con aire consistente. */
+.split-intro h2,
+.menu-layout h2,
+.merienda h2,
+.reviews-heading h2,
+.faq h2,
+.contact h2{margin-bottom:0}
+
+.hero h1 + .hero-lead{margin-top:30px}
+.parrilla-copy h2 + p,
+.merienda-copy h2 + p,
+.contact-inner h2 + p{margin-top:26px}
+.feature-card h3 + p{margin-top:14px}
+.intro-copy p + p,
+.parrilla-copy p + p,
+.merienda-copy p + p{margin-top:22px}
+.parrilla-copy .parrilla-highlights{margin-top:36px}
+.parrilla-copy .parrilla-cta{margin-top:32px}
+.parrilla-copy .parrilla-note{margin-top:30px!important}
+.price-row{margin-top:34px}
+.faq-grid{margin-top:46px}
+.faq details p{margin-top:16px}
+
+@media(max-width:800px){
+  .hero h1 + .hero-lead{margin-top:24px}
+  .parrilla-copy h2 + p,
+  .merienda-copy h2 + p,
+  .contact-inner h2 + p{margin-top:22px}
+  .feature-card h3 + p{margin-top:12px}
+  .intro-copy p + p,
+  .parrilla-copy p + p,
+  .merienda-copy p + p{margin-top:18px}
+  .parrilla-copy .parrilla-highlights{margin-top:30px}
+  .parrilla-copy .parrilla-cta{margin-top:28px}
+  .parrilla-copy .parrilla-note{margin-top:26px!important}
+  .price-row{margin-top:30px}
+  .faq-grid{margin-top:38px}
+  .faq details p{margin-top:14px}
+}
