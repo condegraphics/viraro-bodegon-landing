@@ -41,3 +41,7 @@
 
 /* Toggle mobile real: el estado visual acompaña aria-expanded y la clase is-open. */
 @media(max-width:800px){.main-nav.is-open{opacity:1;visibility:visible;transform:translateY(0)}.nav-button[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}.nav-button[aria-expanded="true"] span:nth-child(2){opacity:0}.nav-button[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}}
+
+/* Toggle mobile CSS-only, igual al patrón funcional de La Brigada. */
+@media(max-width:800px){.nav-toggle{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}.nav-toggle:checked~.main-nav{display:grid;opacity:1;visibility:visible;transform:translateY(0)}.nav-toggle:checked~.nav-button span:nth-child(1){transform:translateY(6px) rotate(45deg)}.nav-toggle:checked~.nav-button span:nth-child(2){opacity:0}.nav-toggle:checked~.nav-button span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}}
+@media(min-width:801px){.nav-toggle{display:none}}
