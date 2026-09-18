@@ -103,3 +103,11 @@
 .footer-bottom a{color:#bdb1a8;text-decoration:none;transition:color .2s ease}
 .footer-bottom a:hover,.footer-bottom a:focus-visible{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
 @media(max-width:800px){.footer-bottom{margin-top:22px;padding-top:14px;font-size:.68rem;line-height:1.5}}
+
+
+/* Footer mínimo: atribución sutil, sin competir con la marca ni con el contenido. */
+.site-footer{padding:20px 0 22px;background:#181210;color:rgba(189,177,168,.58)}
+.footer-bottom{margin-top:0;padding-top:0;border-top:0;text-align:center;font-size:.64rem;letter-spacing:.12em;line-height:1.5;text-transform:uppercase}
+.footer-bottom a{color:rgba(189,177,168,.58);text-decoration:none;transition:color .2s ease}
+.footer-bottom a:hover,.footer-bottom a:focus-visible{color:rgba(189,177,168,.78);text-decoration:none}
+@media(max-width:800px){.site-footer{padding:18px 0 20px}.footer-bottom{font-size:.57rem;letter-spacing:.09em}}
