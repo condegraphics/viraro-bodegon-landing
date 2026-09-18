@@ -19,6 +19,7 @@ Landing estática HTML + CSS para **Viraró Bodegón Parrilla**, Sarmiento 1334,
 - `index.html`: estructura, contenido SEO, CTA y Schema.org.
 - `styles.css`: sistema visual responsive.
 - `img/`: logo, fotografías y piezas visuales del proyecto.
+- `pdf/`: las cinco cartas oficiales, conservando las rutas `/pdf/` que utiliza el sitio actual.
 - `robots.txt`: reglas de rastreo y sitemap oficial.
 - `sitemap.xml`: URL canónica de la homepage.
 - `brand-spec.md`: inventario y origen de assets.
@@ -27,7 +28,7 @@ Landing estática HTML + CSS para **Viraró Bodegón Parrilla**, Sarmiento 1334,
 
 1. Realizar una copia de seguridad completa de WordPress, base de datos, archivos y `.htaccess` antes de reemplazar producción.
 2. Confirmar que el dominio mantiene HTTPS y que `https://virarobodegon.com.ar/` responde con `index.html`.
-3. Copiar a la raíz el contenido publicado de este repositorio: `index.html`, `styles.css`, `img/`, `robots.txt` y `sitemap.xml`.
+3. Copiar a la raíz el contenido publicado de este repositorio: `index.html`, `styles.css`, `img/`, `pdf/`, `robots.txt` y `sitemap.xml`.
 4. Mantener disponibles las URLs históricas que todavía reciben tráfico o enlaces, especialmente los PDFs oficiales. Si alguna URL antigua deja de existir, redirigirla con `301` a su equivalente real o responder `404/410` cuando el contenido haya sido eliminado.
 5. No bloquear el HTML, CSS, imágenes ni PDFs mediante `robots.txt`.
 6. Verificar en Search Console las variantes `https://virarobodegon.com.ar/` y `https://www.virarobodegon.com.ar/`, enviar `https://virarobodegon.com.ar/sitemap.xml` y solicitar inspección de la URL principal después de publicar.
