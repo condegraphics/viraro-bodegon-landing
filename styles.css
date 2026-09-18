@@ -34,3 +34,7 @@
 /* Hero: jerarquía más respirada y H1 controlado en escritorio. */
 @media(min-width:801px){.hero h1{max-width:920px;font-size:clamp(3.2rem,5.2vw,5.4rem);line-height:.98}.hero-lead{max-width:620px;margin-top:30px;margin-bottom:34px}.hero-actions{gap:14px}}
 @media(max-width:800px){.hero-lead{margin-top:24px;margin-bottom:30px}.hero-actions{gap:12px}}
+
+/* Hero final: H1 desktop 78/80 y composición respirada en todos los breakpoints. */
+@media(min-width:801px){.hero-content{padding-top:84px}.hero h1{width:min(900px,100%);max-width:900px;font-size:78px;line-height:80px;letter-spacing:-.045em;margin:0 0 30px}.hero-lead{max-width:640px;margin:0 0 38px;font-size:1.06rem;line-height:1.65}.hero-actions{margin-top:0}}
+@media(max-width:800px){.hero-content{padding-top:88px}.hero h1{width:100%;max-width:560px;margin:0 0 24px;font-size:clamp(2.8rem,11vw,4rem);line-height:1.02;letter-spacing:-.04em}.hero-lead{max-width:520px;margin:0 0 30px;font-size:1rem;line-height:1.55}.hero-actions{margin-top:0}}
