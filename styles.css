@@ -152,3 +152,17 @@
   .faq-grid{margin-top:38px}
   .faq details p{margin-top:14px}
 }
+
+
+/* Aire protagonista entre titulares y sus textos introductorios. */
+.hero h1 + .hero-lead{margin-top:48px}
+.parrilla-copy h2 + p,
+.merienda-copy h2 + p,
+.contact-inner h2 + p{margin-top:58px}
+
+@media(max-width:800px){
+  .hero h1 + .hero-lead{margin-top:40px}
+  .parrilla-copy h2 + p,
+  .merienda-copy h2 + p,
+  .contact-inner h2 + p{margin-top:48px}
+}
