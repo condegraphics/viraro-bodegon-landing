@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
-Sitemap: https://condegraphics.github.io/viraro-bodegon-landing/sitemap.xml
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-json/
+
+Sitemap: https://virarobodegon.com.ar/sitemap.xml
